@@ -43,3 +43,5 @@ dependencies {
   implementation("de.chloedev:cdnlib-spigot:{version}")
 }
 ```
+
+Versions can be found [here](https://repo.chloedev.de/#/releases/de/chloedev/cdnlib-spigot/)
