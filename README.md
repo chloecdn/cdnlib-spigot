@@ -12,7 +12,7 @@
     </repository>
 </repositories>
 ```
-- Gradle (build.gradle):
+- Gradle (build.gradle/build.gradle.kts):
 ```gradle
 repositories {
   //Groovy
@@ -34,7 +34,7 @@ repositories {
     </dependency>
 </dependencies>
 ```
-- Gradle (build.gradle):
+- Gradle (build.gradle/build.gradle.kts):
 ```gradle
 dependencies {
   //Groovy
