@@ -7,8 +7,8 @@
     <name>cdnlib-spigot</name>
 
     <groupId>de.chloedev</groupId>
-    <artifactId>cdnlib</artifactId>
-    <version>1.0.0</version>
+    <artifactId>cdnlib-spigot</artifactId>
+    <version>1.1</version>
 
     <packaging>jar</packaging>
 
@@ -20,7 +20,7 @@
     <distributionManagement>
         <repository>
             <id>cdn-repository</id>
-            <url>https://repo.chloecdn.de/releases</url>
+            <url>https://repo.chloedev.de/releases</url>
         </repository>
     </distributionManagement>
 

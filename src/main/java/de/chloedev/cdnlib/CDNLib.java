@@ -1,5 +1,6 @@
 package de.chloedev.cdnlib;
 
+import de.chloedev.cdnlib.util.Logging;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class CDNLib {
@@ -9,13 +10,9 @@ public class CDNLib {
      */
     private static JavaPlugin plugin;
 
-    public CDNLib(JavaPlugin plugin, String logMessage) {
-        CDNLib.plugin = plugin;
-        Logging.info(logMessage);
-    }
-
     public CDNLib(JavaPlugin plugin) {
-        this(plugin, "Initialized CDNLib.");
+        CDNLib.plugin = plugin;
+        Logging.info("Initialized CDNLib.");
     }
 
     public static JavaPlugin getPlugin() {
