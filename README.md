@@ -1,5 +1,3 @@
-# cdnlib-spigot
-
 # How to use:
 
 
